@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Artwork List</title>
+</head>
+<body>
+    <h1>All Artworks</h1>
+    <ul>
+        {% for artwork in artworks %}
+            <li>{{ artwork.title }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
